@@ -7,12 +7,12 @@ import time
 from discord.ext.commands import Bot
 import _asyncio
 
-TOKEN = Nzc0MDE1NTk3ODk3NDQ5NTMy.X6RoMw.BnGWrz4IRhieZTY2p0EChGCU13Q
-GUILD =Oyum_Server
+TOKEN = #Your Token
+GUILD =#Your server Name
 
 client = discord.Client()
 
-abusive =['fuck','shit']
+abusive =['fuck','shit']#any offensive word you do not want people to use
 
 bot = Bot(command_prefix='!')
 
@@ -50,7 +50,7 @@ async def on_message(message):
 
     elif '...' in message.content:
         time.sleep(5)
-        await message.delete()
+        await message.delete()#if you use ... in a message, it will disappear automatically after 5 seconds
 
 
 @bot.command(pass_context = True)
