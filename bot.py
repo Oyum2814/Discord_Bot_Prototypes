@@ -12,7 +12,7 @@ GUILD =#Your server Name
 
 client = discord.Client()
 
-abusive =['fuck','shit']#any offensive word you do not want people to use
+abusive =['','']#any offensive word you do not want people to use
 
 bot = Bot(command_prefix='!')
 
