@@ -12,3 +12,4 @@ def run():
 def keep_alive():
     server = Thread(target=run)
     server.start()
+#simple script for flas to run this discord bot 24/7
