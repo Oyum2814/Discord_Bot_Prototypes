@@ -15,6 +15,8 @@ import requests
 import bs4
 import music_player
 
+####### HOSTED ON REPL.it ########
+
 ############# IF you know how python works(database,env environment and sockets), you are free to check this out, you wont have much trouble....
 ############# If you are new to python , you can just clone this up , make up a bot in discord developer portal and add its token inside the TOKEN variable, and youre good to go!You can also add basic features inside once you learn some basics about this program
 
